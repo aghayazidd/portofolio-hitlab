@@ -1,0 +1,123 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D6C6B8;
+}
+p {
+    font-family: 'Playfair Display', serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #333333;
+}
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        margin-top: 10px;
+        gap: 10px;
+    }
+    
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero-img {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .hero img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+.logo {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #4c4c4d;
+}
+
+.hero {        
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;    
+    font-size: 25px;
+    padding: 0 100px;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero img {
+   width: 500px;
+   height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    text-align: right;
+}
+.about {
+    text-align: center;
+}
+
+
+.skills {
+    text-align: center;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.skill-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 200px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+section {
+    height: 100vh;
+    }
